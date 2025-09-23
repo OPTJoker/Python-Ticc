@@ -124,9 +124,9 @@ def judge():
                     win = -1
             print('game over')
             if win == 1:
-                print("|**** computer win ****|")
+                print("|**** Sorry, Computer win! ****|")
             elif win == -1:
-                print("|**** computer win ****|")
+                print("|**** Congratulation! You win ! ****|")
 
     if steps == 9:
         gameover = True
